@@ -1,0 +1,32 @@
+# ===============================
+# Core scientific stack
+# ===============================
+numpy>=2.4.1
+
+# ===============================
+# STL / mesh manipulation
+# ===============================
+trimesh>=4.11.1
+
+# Graph engine REQUIRED for mesh.split()
+networkx>=3.0
+
+# Optional geometry helpers (used by trimesh in some cases)
+shapely>=2.0
+
+# ===============================
+# GUI (Qt)
+# ===============================
+PySide6>=6.7.0
+
+# ===============================
+# OpenGL preview
+# ===============================
+pyqtgraph>=0.14.0
+PyOpenGL>=3.1.10
+PyOpenGL-accelerate>=3.1.10; platform_system != "Windows"
+
+# ===============================
+# Packaging (developers only)
+# ===============================
+pyinstaller>=6.18.0
